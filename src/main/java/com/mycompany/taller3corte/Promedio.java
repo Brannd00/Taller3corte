@@ -13,7 +13,7 @@ public class Promedio {
     public static double promedio(double[] notas) {
 
         if (notas.length == 0) {
-            throw new IllegalArgumentException("No hay notas");
+            throw new IllegalArgumentException("No hay nostas");
         }
 
         double suma = 0;

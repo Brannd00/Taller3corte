@@ -39,6 +39,6 @@ public class Taller3corte {
             System.out.println();
         }
 
-        System.out.println("Mayor resolución: " + mayorResolucion + " MP");
+        System.out.println("Mayor resolucion: " + mayorResolucion + " MP");
     }
 }

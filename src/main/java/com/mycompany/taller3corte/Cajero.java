@@ -85,7 +85,7 @@ public class Cajero {
 
                         default:
 
-                            System.out.println("Opción invalida. Intente nuevamente.");
+                            System.out.println("opcion invalida. Intente nuevamente.");
 
                     }
 

@@ -19,12 +19,12 @@ public class Camara extends Dispositivo implements Fotografiable {
 
     @Override
     public void describir() {
-        System.out.println("Cámara " + marca + " " + modelo + " - $" + String.format("%,.0f", precio).replace(",", ".") + " - " + funcion());
+        System.out.println("Camara " + marca + " " + modelo + " - $" + String.format("%,.0f", precio).replace(",", ".") + " - " + funcion());
     }
 
     @Override
     public void tomarFoto() {
-        System.out.println(marca + " tomó una foto profesional de " + megapixeles + " MP");
+        System.out.println(marca + " tomo una foto profesional de " + megapixeles + " MP");
     }
 
     @Override
